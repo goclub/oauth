@@ -1,0 +1,13 @@
+@startuml
+autonumber
+title: 授权码模式\ngithub.com/goclub/oauth
+participant app
+actor user
+participant server
+user -> server: request
+server -> user: authorization_code
+user -> app: authorization_code
+app -> server: authorization_code ak sk
+server -> app: access_token
+ap -> server: 使用 access_token 获取用户信息
+@enduml

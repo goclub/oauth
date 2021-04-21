@@ -1,0 +1,11 @@
+@startuml
+autonumber
+title: implicit 模式\ngithub.com/goclub/oauth
+participant app
+actor user
+participant server
+user -> server: request
+server -> user: access_token
+user -> app: access_token
+app -> server: 使用 access_token 获取用户信息
+@enduml
