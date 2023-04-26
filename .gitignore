@@ -12,3 +12,4 @@
 *.out
 
 .idea
+docs/chart/.DS_Store
