@@ -35,7 +35,6 @@
 
 ![](./docs/chart/authorization_code.png)
 
-在
 
 第1/2步必须让用户跳转到 server， server 确保用户在登录状态下同意授权信息给app。
 
