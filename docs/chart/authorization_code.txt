@@ -9,5 +9,5 @@ server -> user: authorization_code
 user -> app: authorization_code
 app -> server: authorization_code ak sk
 server -> app: access_token
-ap -> server: 使用 access_token 获取用户信息
+app -> server: 使用 access_token 获取用户信息
 @enduml
