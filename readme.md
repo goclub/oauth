@@ -33,7 +33,7 @@
 ## authorization code 授权码模式
 
 
-![](./docs/chart/authorization_code.png)
+![](./docs/chart/authorization_code.svg)
 
 在
 
@@ -46,7 +46,7 @@
 
 ## implicit 隐藏模式
 
-![](./docs/chart/implicit.png)
+![](./docs/chart/implicit.svg)
 
 安全性低，因为省略了 authorization_code 环节， access token 可能会泄露
 
@@ -54,7 +54,7 @@
 
 # password 密码模式
 
-![](./docs/chart/password.png?1)
+![](./docs/chart/password.svg)
 
 最不安全的模式，用户的密码被 app 知道了。
 
