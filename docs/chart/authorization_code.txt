@@ -1,6 +1,6 @@
 @startuml
 autonumber
-title: 授权码模式\ngithub.com/goclub/oauth
+title: 授权码模式 \ngithub.com/goclub/oauth
 participant app
 actor user
 participant server
